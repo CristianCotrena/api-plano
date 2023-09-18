@@ -75,9 +75,34 @@
 
 A API faz parte de um sistema de academia com as seguintes funcionalidades:
 
-- A ser implementado...
-- A ser implementado...
-- A ser implementado...
-- A ser implementado...
-- A ser implementado...
+### Etapa 1: (Concluída)
+✅ ~~Implementado api-Plano~~
+
+---
+
+### Etapa 2:
+✅ Conexão com o banco de dados PostgreSQL na CloudService Railway
+
+✅ Implementado tabela `Plano` básica (sem relacionamento com outras tabelas)
+
+✅ Abaixo segue o diagrama ER da tabela `Plano`:
+
+<div align="center">
+<img src="images/er_plano.png" height="300px" />
+</div>
+
+⏳ Será implementado em breve `environments`
+
+⏳ Será enviado em breve `dados de conexão com banco de dados`
+
+
+---
+
+### Etapa 3:
+✅ A ser implementado...
+
+✅ A ser implementado...
+
+
+---
 
