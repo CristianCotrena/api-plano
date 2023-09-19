@@ -85,16 +85,9 @@ A API faz parte de um sistema de academia com as seguintes funcionalidades:
 
 ✅ Implementado tabela `Plano` básica (sem relacionamento com outras tabelas)
 
-✅ Abaixo segue o diagrama ER da tabela `Plano`:
-
-<div align="center">
-<img src="images/er_plano.png" height="300px" />
-</div>
+✅ Implementado tabela `dados de conexão com banco de dados`
 
 ⏳ Será implementado em breve `environments`
-
-⏳ Será enviado em breve `dados de conexão com banco de dados`
-
 
 ---
 
