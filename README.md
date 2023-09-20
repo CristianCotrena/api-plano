@@ -87,14 +87,14 @@ A API faz parte de um sistema de academia com as seguintes funcionalidades:
 
 ✅ Implementado tabela `dados de conexão com banco de dados`
 
-⏳ Será implementado em breve `environments`
+✅ Implementado em breve `environments`
 
 ---
 
 ### Etapa 3:
-✅ A ser implementado...
+✅ A ser implementado....
 
-✅ A ser implementado...
+✅ A ser implementado....
 
 
 ---
