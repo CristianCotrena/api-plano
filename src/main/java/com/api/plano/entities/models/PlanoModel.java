@@ -1,5 +1,6 @@
-package com.api.plano.models;
+package com.api.plano.entities.models;
 
+import com.api.plano.entities.enums.PlanosEnum;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -14,28 +15,21 @@ public class PlanoModel implements Serializable {
     private UUID id;
 
     @Column(nullable = false)
-    private String nome;
+    private PlanosEnum nome;
 
     @Column(nullable = false)
     private String descricao;
 
     @Column(nullable = false)
-    private double valor;
+    private Double valor;
 
     @Column(nullable = false)
-    private double valorPromocional;
+    private Double valorPromocional;
 
-    @Column(nullable = false, columnDefinition = "int default 1")
-    private int status;
+    @Column(nullable = false)
+    private Integer status;
 
-    public PlanoModel(
-            UUID id,
-            String nome,
-            String descricao,
-            double valor,
-            double valorPromocional,
-            int status
-    ) {
+    public PlanoModel(UUID id, PlanosEnum nome, String descricao, Double valor, Double valorPromocional, Integer status) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
@@ -55,11 +49,11 @@ public class PlanoModel implements Serializable {
         this.id = id;
     }
 
-    public String getNome() {
+    public PlanosEnum getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(PlanosEnum nome) {
         this.nome = nome;
     }
 
@@ -71,27 +65,27 @@ public class PlanoModel implements Serializable {
         this.descricao = descricao;
     }
 
-    public double getValor() {
+    public Double getValor() {
         return valor;
     }
 
-    public void setValor(double valor) {
+    public void setValor(Double valor) {
         this.valor = valor;
     }
 
-    public double getValorPromocional() {
+    public Double getValorPromocional() {
         return valorPromocional;
     }
 
-    public void setValorPromocional(double valorPromocional) {
+    public void setValorPromocional(Double valorPromocional) {
         this.valorPromocional = valorPromocional;
     }
 
-    public int getStatus() {
+    public Integer getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(Integer status) {
         this.status = status;
     }
 }
