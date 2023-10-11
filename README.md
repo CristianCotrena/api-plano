@@ -67,6 +67,7 @@
     <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_postgre.svg" width="60" fill="none" />
     <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_postman.svg" width="60" fill="none" />
     <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_railway.svg" width="60" fill="none" />
+    <img src="https://github.com/PFonsecaFV/PFonsecaFV/blob/main/src/icons/ic_swagger.svg" width="60" fill="none" />
     </a>
   </p>
 </div>
@@ -76,26 +77,48 @@
 A API faz parte de um sistema de academia com as seguintes funcionalidades:
 
 ### Etapa 1: (Concluída)
-✅ ~~Implementado api-Plano~~
+✅ ~~Implementado api-plano~~
 
 ---
 
-### Etapa 2:
-✅ Conexão com o banco de dados PostgreSQL na CloudService Railway
+### Etapa 2: (Concluída)
+✅ ~~Conexão com o banco de dados PostgreSQL na CloudService Railway~~
 
-✅ Implementado tabela `Plano` básica (sem relacionamento com outras tabelas)
+✅ ~~Implementado tabela `plano` básica (sem relacionamento com outras tabelas)~~
 
-✅ Implementado tabela `dados de conexão com banco de dados`
+✅ ~~Implementado `environments`~~
 
-✅ Implementado em breve `environments`
+✅ ~~Implementado `dados de conexão com banco de dados`~~
+
 
 ---
 
 ### Etapa 3:
-✅ A ser implementado....
+✅ Padronização de retorno da API
 
-✅ A ser implementado....
+✅ Atualizado `environments` com escopo global entre IDEs
 
+✅ Adicionar Regras de negócio
+
+✅ Configurado e implementado Doc Swagger
+
+✅ Para testar as requisições no Swagger entre no link abaixo:
+
+```html
+http://localhost:8080/swagger-ui/index.html#/
+```
+
+✅ Adicionado coleção inicial do POSTMAN que se encontra no diretório:
+
+```source-json
+/src/main/java/com/api/apiplano/utils/postman/
+```
+
+✅ Implementados Testes Unitários
+
+✅ CRUD iniciado:
+
+- Implementado método `POST`
 
 ---
 
