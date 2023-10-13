@@ -12,6 +12,9 @@ public class PlanoResponseDto implements Serializable {
         this.id = id;
     }
 
+    public PlanoResponseDto() {
+    }
+
     public String id() {
         return id;
     }

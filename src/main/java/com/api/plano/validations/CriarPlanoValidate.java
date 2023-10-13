@@ -19,7 +19,7 @@ public class CriarPlanoValidate {
         if (planoRequestDto.getNome() == null) {
             errors.add(new BaseErrorDto("Nome", MensagensErros.EMPTY_FIELD));
         }
-        if (planoRequestDto.getDescricao() == null) {
+        if (planoRequestDto.getDescricao() == null || planoRequestDto.getDescricao().isEmpty()) {
             errors.add(new BaseErrorDto("Descricao", MensagensErros.EMPTY_FIELD));
         }
         if (planoRequestDto.getValor() == null) {
